@@ -35,5 +35,5 @@ cf_dev_hostname: company-azulch
 # set to 'company-<first_initial><lastname>'. ex: company-sgreenberg
 cf_dev_domain: cfapps.io
 # set to the apps domain for your CF
-cf_dev_manifest: manifest-dev.yml
+cf_dev_manifest: roster-manifest.yml
 # set to the dev manifest path in your company app repository. ex: dev-manifest.yml
