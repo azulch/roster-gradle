@@ -1,0 +1,14 @@
+
+---
+applications:
+- name: roster
+  memory: 750M
+  instances: 1
+  buildpack: java_buildpack
+  random-route: true
+  services:
+  - rosterDB
+  env:
+    ROSTER_A: fixed
+    ROSTER_B: dynamic
+    APP_VERSION: green
