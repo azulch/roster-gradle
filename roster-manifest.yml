@@ -8,7 +8,9 @@ applications:
   random-route: true
   services:
   - rosterDB
+  - configServer
   env:
     ROSTER_A: fixed
     ROSTER_B: dynamic
     APP_VERSION: green
+    SPRING_PROFILES_ACTIVE: cloud
