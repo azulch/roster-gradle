@@ -9,6 +9,7 @@ applications:
   services:
   - rosterDB
   - configServer
+  timeout: 180
   env:
     ROSTER_A: fixed
     ROSTER_B: dynamic
